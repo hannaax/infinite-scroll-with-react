@@ -716,7 +716,8 @@ interface MockData {
   boughtDate: string;
 }
 
-const PER_PAGE = 10;
+export const MOCKDATA_LENGTH = MOCK_DATA.length;
+export const PER_PAGE = 10;
 
 // 페이지는 1부터 시작함
 export const getMockData = (pageNum: number) => {
